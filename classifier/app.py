@@ -6,7 +6,7 @@ import librosa
 import pandas as pd
 import catboost as cb
 import xgboost as xgb
-
+from app import app
 
 
 #UPLOAD_FILE = '/Users/Anil/mpr/'
