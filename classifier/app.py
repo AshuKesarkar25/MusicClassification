@@ -7,7 +7,7 @@ import pandas as pd
 import catboost as cb
 import xgboost as xgb
 
-
+const PORT=process.env.PORT || 8080
 
 
 #UPLOAD_FILE = '/Users/Anil/mpr/'
@@ -382,4 +382,4 @@ def predict():
 
 
 if __name__ == "__main__":
-  app.run(port=8080,debug=True)
+  app.run(port=PORT,debug=True)
